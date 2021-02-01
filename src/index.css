@@ -5,6 +5,103 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #f3f3f3;
+}
+table {
+  width: 100%;
+}
+td {
+  margin-left: 5px;
+}
+a {
+  margin-top: 2px;
+  color: white;
+}
+a:hover {
+  color: white;
+}
+tr:nth-child(odd) {
+  background-color: #f3f3f3;
+}
+
+/* end of general styling */
+.top-nav {
+  background-color: #1482c2;
+  color: white;
+}
+
+#top-ul {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+#top-ul li {
+  margin-right: 7px;
+  color: white;
+  margin-top: 2px;
+}
+
+#top-form {
+  margin-bottom: 5px;
+}
+
+/*  end of navbars  */
+
+.phone-images {
+  float: left;
+}
+
+#phone-facts li {
+}
+.phoneDisplay {
+  height: 600px;
+  background-color: white;
+  border: 1px solid #ddd1d1;
+  border-radius: 2px;
+}
+
+/*  end of Phone display  */
+
+.spec-bg {
+  background-color: white;
+}
+.specs-table {
+  margin: 30px;
+}
+.specCon {
+  height: 375px;
+  background-color: white;
+  border: 1px solid #0000003a;
+  border-radius: 2px;
+  margin-top: 27px;
+}
+.title-specs {
+  margin-left: 20px;
+}
+
+/* end of specs */
+
+.footer {
+  background-color: #1d4e6e;
+  color: #fff;
+  font-size: 12px;
+  clear: both;
+  margin-top: 15rem;
+}
+.footerContent {
+  margin: 0 auto;
+  padding: 30px 15px 15px 15px;
+}
+
+.f1 {
+  float: left;
+  width: 15.771%;
+}
+
+.f4 {
+  width: 32.9275%;
+  float: left;
 }
 
 code {
