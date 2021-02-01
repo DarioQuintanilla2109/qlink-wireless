@@ -5,6 +5,7 @@ import { Navbar } from '../src/components/Navbar'
 import { PhoneDisplay } from '../src/components/PhoneDisplay'
 import { Specifications } from '../src/components/Specifications'
 import { Footer } from '../src/components/Footer'
+import { BottomNav } from '../src/components/BottomNav'
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <PhoneDisplay />
       <Specifications />
       <Footer />
+      <BottomNav />
     </>
   )
 }

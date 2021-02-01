@@ -8,7 +8,7 @@ export const Footer = () => {
           <div className='f1'>
             <h5>Helpful Links</h5>
             <ul className='list1'>
-              <li>
+              <li id='firstLI'>
                 <a href='#'>Home</a>
               </li>
               <li>
@@ -40,7 +40,7 @@ export const Footer = () => {
           <div className='f1'>
             <h5>Lifeline Programs</h5>
             <ul className='list1'>
-              <li>
+              <li id='firstLI'>
                 <a href='#'>About Us</a>
               </li>
               <li>
@@ -66,7 +66,7 @@ export const Footer = () => {
           <div className='f3'>
             <h5>Get Connected</h5>
             <ul className='list1'>
-              <li>
+              <li id='firstLI'>
                 <i class='fab fa-facebook fa-2x'></i>
                 <a
                   href='https://www.facebook.com/qlinkwireless'
@@ -121,7 +121,7 @@ export const Footer = () => {
           <div className='f4'>
             <h5>Testimonials</h5>
             <ul className='list1'>
-              <li>
+              <li id='firstLI'>
                 "I love my phone from Q Link Wireless because it is easy to use
                 and now I will never be without a phone. Thanks Q Link!"
               </li>
