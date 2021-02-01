@@ -88,9 +88,9 @@ tr:nth-child(odd) {
 }
 
 .titleName {
-  margin-left: 1px;
+  margin-left: 13px;
   margin-top: 15px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 /* end of specs */
@@ -135,14 +135,13 @@ tr:nth-child(odd) {
 .bottomNav {
   background-color: #123145;
   clear: both;
-  min-height: 3em;
+  min-height: 2em;
 }
 .bnav {
   max-width: 940px;
   width: 88.626%;
   display: flex;
   color: white;
-  line-height: 40px;
 }
 
 .bnav li {

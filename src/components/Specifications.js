@@ -5,7 +5,7 @@ export const Specifications = () => {
     <div className='container '>
       <div className='specCon'>
         <div className='titleName'>
-          <h4>Specifications</h4>
+          <h4 id='titleName '>Specifications</h4>
         </div>
 
         <div className='specs-table'>
