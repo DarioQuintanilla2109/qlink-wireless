@@ -67,52 +67,38 @@ export const Footer = () => {
             <h5>Get Connected</h5>
             <ul className='list1'>
               <li id='firstLI'>
-                <i class='fab fa-facebook fa-2x'></i>
+                <i className='fab fa-facebook fa-2x'></i>
                 <a
                   href='https://www.facebook.com/qlinkwireless'
                   target='_blank'
-                  className='social fb'
                 >
                   Like us on Facebook
                 </a>
               </li>
               <li>
-                <i class='fab fa-twitter fa-2x'></i>
-                <a
-                  href='http://www.twitter.com/qlinkwireless'
-                  class='social tw'
-                  target='_blank'
-                >
+                <i className='fab fa-twitter fa-2x'></i>
+                <a href='http://www.twitter.com/qlinkwireless' target='_blank'>
                   Follow Us on Twitter!
                 </a>
               </li>
               <li>
-                <i class='fab fa-instagram fa-2x'></i>
+                <i className='fab fa-instagram fa-2x'></i>
                 <a
                   href='https://www.instagram.com/qlinkwireless/'
-                  class='social ig'
                   target='_blank'
                 >
                   Hang Out With Us On Instagram
                 </a>
               </li>
               <li>
-                <i class='far fa-comments fa-2x'></i>
-                <a
-                  href='https://blog.qlinkwireless.com/'
-                  target='_blank'
-                  class='social blog'
-                >
+                <i className='far fa-comments fa-2x'></i>
+                <a href='https://blog.qlinkwireless.com/' target='_blank'>
                   See What We Have To Say
                 </a>
               </li>
               <li>
-                <i class='fas fa-info-circle fa-2x'></i>
-                <a
-                  href='/members/chat/login.aspx'
-                  target='_blank'
-                  class='social chat'
-                >
+                <i className='fas fa-info-circle fa-2x'></i>
+                <a href='/members/chat/login.aspx' target='_blank'>
                   Get Help Here
                 </a>
               </li>

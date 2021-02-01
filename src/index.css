@@ -38,12 +38,14 @@ tr:nth-child(odd) {
 .top-nav {
   background-color: #1482c2;
   color: white;
+  overflow: hidden;
 }
 
 #top-ul {
   display: flex;
   list-style-type: none;
   margin-bottom: 0;
+  float: right;
 }
 
 #top-ul li {
@@ -54,6 +56,9 @@ tr:nth-child(odd) {
 
 #top-form {
   margin-bottom: 5px;
+}
+.topNav {
+  margin-left: auto;
 }
 
 /*  end of navbars  */
