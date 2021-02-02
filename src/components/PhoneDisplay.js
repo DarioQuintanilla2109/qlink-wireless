@@ -9,7 +9,7 @@ export const PhoneDisplay = () => {
         <div className='phone-images'>
           <ul id='phonePics'>
             <li>
-              <img src={Iphone} width='150' height='300' alt='' />
+              <img id='bigImg' src={Iphone} width='150' height='300' alt='' />
             </li>
             <li id='smallImg'>
               <img src={Iphone} width='20' height='40' alt='' />
@@ -65,19 +65,19 @@ export const PhoneDisplay = () => {
             <li>
               <button
                 type='button'
-                class='btn btn-outline-primary mr-2 mt-1  btn-sm'
+                className='btn btn-outline-primary mr-2 mt-1  btn-sm'
               >
                 64GB
               </button>
               <button
                 type='button'
-                class='btn btn-outline-primary mr-2 mt-1  btn-sm'
+                className='btn btn-outline-primary mr-2 mt-1  btn-sm'
               >
                 128GB
               </button>
               <button
                 type='button'
-                class='btn btn-outline-primary mr-2 mt-1  btn-sm'
+                className='btn btn-outline-primary mr-2 mt-1  btn-sm'
               >
                 256GB
               </button>
@@ -86,19 +86,27 @@ export const PhoneDisplay = () => {
             <li>
               <button
                 type='button'
-                class='btn btn-outline-primary mr-2 mt-1  btn-sm'
+                className='btn btn-outline-primary mr-2 mt-1  btn-sm'
               >
                 Pay Monthly
               </button>
               <button
                 type='button'
-                class='btn btn-outline-primary mr-2 mt-1  btn-sm'
+                className='btn btn-outline-primary mr-2 mt-1  btn-sm'
               >
                 Pay In Full
               </button>
             </li>
             <li>FINANCE WITH </li>
             <li>$10.15 /mo.</li>
+            <li id='mobB'>
+              <button
+                type='button'
+                className='btn btn-outline-primary mr-2 mt-1  btn-lg'
+              >
+                Add To Cart
+              </button>
+            </li>
           </ul>
         </div>
       </div>
