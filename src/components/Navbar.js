@@ -64,7 +64,7 @@ export const Navbar = () => {
               </li>
               <li className='nav-item dropdown'>
                 <a
-                  className='nav-link dropdown-toggle'
+                  className='nav-link dropdown-toggle mr-5'
                   href='#'
                   id='navbarDropdown'
                   role='button'

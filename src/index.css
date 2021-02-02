@@ -16,6 +16,7 @@ ul {
 }
 td {
   margin-left: 5px;
+  margin-top: 5px;
 }
 a {
   margin-top: 2px;
@@ -34,6 +35,9 @@ tr:nth-child(odd) {
   background-color: #f3f3f3;
 }
 
+.btn {
+  color: black;
+}
 /* end of general styling */
 .top-nav {
   background-color: #1482c2;
@@ -62,18 +66,45 @@ tr:nth-child(odd) {
 }
 
 /*  end of navbars  */
+#black {
+  margin-right: 8px;
+}
+#brown {
+  margin-right: 8px;
+}
+#clear {
+  margin-right: 8px;
+}
+#shop-m {
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+#phone-facts {
+  width: 47%;
+  float: right;
+  margin-right: 6.2rem;
+  margin-top: 30px;
+  overflow: hidden;
+  margin-bottom: 6rem;
+}
 
 .phone-images {
   float: left;
+  width: 30%;
+  margin-left: 9.7rem;
+  margin-top: 2.8rem;
+  overflow: hidden;
 }
 
-#phone-facts li {
+#i-border {
+  border-bottom: 1px solid #ddd1d1;
 }
+
 .phoneDisplay {
-  height: 600px;
   background-color: white;
   border: 1px solid #ddd1d1;
   border-radius: 2px;
+  overflow: hidden;
 }
 
 /*  end of Phone display  */
@@ -85,11 +116,11 @@ tr:nth-child(odd) {
   margin: 30px;
 }
 .specCon {
-  height: 375px;
   background-color: white;
   border: 1px solid #0000003a;
   border-radius: 2px;
   margin-top: 27px;
+  overflow: hidden;
 }
 
 .titleName {
@@ -104,7 +135,6 @@ tr:nth-child(odd) {
   background-color: #1d4e6e;
   color: #fff;
   font-size: 12px;
-  clear: both;
   margin-top: 15rem;
   display: block;
   overflow: hidden;
@@ -156,4 +186,23 @@ tr:nth-child(odd) {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+/* media queries  */
+
+@media (max-width: 500px) {
+  .top-nav {
+    display: none;
+  }
+  .bottomNav {
+    display: none;
+  }
+
+  .phoneDisplay {
+    flex-direction: column;
+    align-items: center;
+  }
+  .f1 .list1,
+  .f3 .list1 {
+    grid-template-columns: 1fr;
+  }
 }
