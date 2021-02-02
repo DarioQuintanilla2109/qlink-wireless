@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 
 export const Specifications = () => {
+  const [data, setData] = useState({})
+
   return (
     <div className='container '>
       <div className='specCon'>
