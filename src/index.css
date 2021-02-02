@@ -160,6 +160,8 @@ tr:nth-child(odd) {
   padding: 30px 15px 15px 15px;
   width: 88.626%;
   margin: 20px;
+  display: flex;
+  flex-flow: row nowrap;
 }
 .list1 li {
   margin-bottom: 7px;
@@ -226,6 +228,10 @@ code {
 }
 
 @media (max-width: 500px) {
+  .footerContent {
+    display: flex;
+    flex-flow: column nowrap;
+  }
   #bigImg {
     padding-right: 3rem;
   }

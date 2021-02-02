@@ -1,7 +1,11 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Iphone from '../images/iphone_xs_max.png'
 
 export const PhoneDisplay = () => {
+  const [color, setColor] = useState(null)
+  const [storage, setStorage] = useState(null)
+  const [payment, setPayment] = useState(null)
+
   return (
     <div className='container'>
       <h4 id='shop-m'>Shop</h4>
@@ -38,25 +42,31 @@ export const PhoneDisplay = () => {
             <li className='mb-4'>
               <i class='fas fa-sim-card'></i> Free SIM card included
             </li>
-            <li>COLOR: BLACK </li>
+            <li>COLOR: {color}</li>
             <li>
               <input
                 type='radio'
                 id='black'
-                name='gender'
-                value='black'
+                name='color'
+                value='BLACK'
+                checked={color == 'BLACK'}
+                onClick={e => setColor(e.target.value)}
               ></input>
               <input
                 type='radio'
                 id='brown'
-                name='gender'
-                value='brown'
+                name='color'
+                value='BROWN'
+                checked={color == 'BROWN'}
+                onClick={e => setColor(e.target.value)}
               ></input>
               <input
                 type='radio'
                 id='clear'
-                name='gender'
-                value='clear'
+                name='color'
+                value='CLEAR'
+                checked={color == 'CLEAR'}
+                onClick={e => setColor(e.target.value)}
               ></input>
             </li>
             <li id='i-borderT' className='mb-1'>
