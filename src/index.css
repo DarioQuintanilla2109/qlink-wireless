@@ -87,7 +87,17 @@ tr:nth-child(odd) {
   overflow: hidden;
   margin-bottom: 6rem;
 }
+.paymentB {
+  margin-top: 5px;
+}
 
+#phone-facts li {
+  margin-top: 10px;
+}
+#smallImg {
+  margin-left: 60px;
+  margin-top: 3rem;
+}
 .phone-images {
   float: left;
   width: 30%;
@@ -97,6 +107,13 @@ tr:nth-child(odd) {
 }
 
 #i-border {
+  border-bottom: 1px solid #ddd1d1;
+}
+#i-borderT {
+  border-top: 1px solid #ddd1d1;
+}
+
+#radb {
   border-bottom: 1px solid #ddd1d1;
 }
 

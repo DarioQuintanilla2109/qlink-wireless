@@ -11,16 +11,18 @@ export const PhoneDisplay = () => {
             <li>
               <img src={Iphone} width='150' height='300' alt='' />
             </li>
-            <li>
-              <img id='smallImg' src={Iphone} width='20' height='40' alt='' />
+            <li id='smallImg'>
+              <img src={Iphone} width='20' height='40' alt='' />
             </li>
           </ul>
         </div>
         <div className='phone-details'>
           <ul id='phone-facts'>
-            <li>Applee</li>
+            <li>Apple</li>
             <li>
-              <h3 id='i-border'>iPhone XS Max</h3>
+              <h3 id='i-border' className='mb-3 mt-2'>
+                iPhone XS Max
+              </h3>
             </li>
             <li>
               Get exactly what you need with the preformance and realibility of
@@ -30,10 +32,10 @@ export const PhoneDisplay = () => {
               Finally, capture those high-quality moments with a built in 8 MP
               camera.
             </li>
-            <li>
+            <li className='mt-4'>
               <i class='fas fa-box'></i> Free Shipping
             </li>
-            <li>
+            <li className='mb-4'>
               <i class='fas fa-sim-card'></i> Free SIM card included
             </li>
             <li>COLOR: BLACK </li>
@@ -57,7 +59,9 @@ export const PhoneDisplay = () => {
                 value='clear'
               ></input>
             </li>
-            <li>Storage</li>
+            <li id='i-borderT' className='mb-1'>
+              Storage
+            </li>
             <li>
               <button
                 type='button'
@@ -78,7 +82,7 @@ export const PhoneDisplay = () => {
                 256GB
               </button>
             </li>
-            <li>Payment</li>
+            <li id='i-borderT'>Payment</li>
             <li>
               <button
                 type='button'
