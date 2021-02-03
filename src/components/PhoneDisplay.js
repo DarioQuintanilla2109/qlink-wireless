@@ -70,37 +70,53 @@ export const PhoneDisplay = () => {
               ></input>
             </li>
             <li id='i-borderT' className='mb-1'>
-              Storage
+              Storage: {storage}
             </li>
             <li>
               <button
+                value='64GB'
+                checked={storage == '64'}
+                onClick={e => setStorage(e.target.value)}
                 type='button'
                 className='btn btn-outline-primary mr-2 mt-1  btn-sm'
               >
                 64GB
               </button>
               <button
+                value='128GB'
                 type='button'
+                checked={storage == '128'}
+                onClick={e => setStorage(e.target.value)}
                 className='btn btn-outline-primary mr-2 mt-1  btn-sm'
               >
                 128GB
               </button>
               <button
+                value='256GB'
+                type='button'
+                checked={storage == '256'}
+                onClick={e => setStorage(e.target.value)}
                 type='button'
                 className='btn btn-outline-primary mr-2 mt-1  btn-sm'
               >
                 256GB
               </button>
             </li>
-            <li id='i-borderT'>Payment</li>
+            <li id='i-borderT'>Payment: {payment}</li>
             <li>
               <button
+                value='Pay Monthly'
+                checked={storage == 'Pay Monthly'}
+                onClick={e => setPayment(e.target.value)}
                 type='button'
                 className='btn btn-outline-primary mr-2 mt-1  btn-sm'
               >
                 Pay Monthly
               </button>
               <button
+                value='Pay Full'
+                checked={storage == 'Pay Full'}
+                onClick={e => setPayment(e.target.value)}
                 type='button'
                 className='btn btn-outline-primary mr-2 mt-1  btn-sm'
               >
